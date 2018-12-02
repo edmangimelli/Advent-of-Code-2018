@@ -18,9 +18,7 @@ i = 0
 while i < len
   j = i + 1
   while j < len
-    a = input[i]
-    b = input[j]
-    if ans = answer(a, b)
+    if ans = answer(input[i], input[j])
       puts ans
       exit
     end
